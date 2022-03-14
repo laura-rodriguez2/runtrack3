@@ -1,6 +1,6 @@
 function sommenombrespremiers(nb1, nb2) {
 
-    var i = 0;
+    var i = 2;
 
     //nb1
     for (i; i < nb1; i++) {
@@ -18,4 +18,4 @@ function sommenombrespremiers(nb1, nb2) {
     var resultat = nb1 + nb2;
     console.log(resultat);
 }
-console.log(sommenombrespremiers(1, 3))
+console.log(sommenombrespremiers(2, 13))
