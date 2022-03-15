@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-    <!-- <script language="javascript" type="text/javascript" src="script.js"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     </script>
 </head>
 
@@ -15,12 +15,12 @@
 
     </header>
     <main>
-        <textarea id="keylogger"></textarea>
+
+    </main>
+    <footer id="footer">
 
         <script type="text/javascript" src='script.js'></script>
-    </main>
-    <footer>
-
+        
     </footer>
 </body>
 

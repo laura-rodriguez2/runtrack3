@@ -1,6 +1,11 @@
-    var text = document.getElementById("keylogger");
+var footer = document.getElementById('footer');
+var body = document.body
 
-document.addEventListener("keydown", function (i) {
-    text.value += i.key;
-}
-)
+
+var val = window.scrollY/3000; //3000 pour que ça change sur toute la page
+var u = val -30
+
+body.onscroll = function() {
+    footer.style.backgroundColor = `rgba(${u},49, 119 , ${window.scrollY/3000})`;
+};
+
