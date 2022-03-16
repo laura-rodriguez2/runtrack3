@@ -7,26 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
     <script type="text/javascript" src='script.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-
-    </script>
 </head>
 
 <body>
     <header>
 
     </header>
-    <main>
-
-        <button id="button">Cliquez</button>
-        <button id="buttonHide">Hide</button>
-
-        <p id="texte">“le $ est un bon élément
-            monétaire. Le # de twitter est une bonne I D. Il faudra faire le point avec la
-            classe pour cacher cet élément. ”.</p>
-
+    <main style="display:flex; flex-direction:column;">
+        <div id="melangee"></div>
+        <div id="melangees" style="display:flex;border:1px solid black;"></div>
+        <div id="rangees" style="display:flex;border:1px solid black;"></div>
+        <button id="button">Mélanger</button>
+        <script src="script.js"></script>
     </main>
     <footer>
 
