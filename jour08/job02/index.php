@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -7,24 +7,20 @@
 
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-
     <title>materialize</title>
+
 </head>
 
 <body>
     <header>
 
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper teal lighten-2">
                 <a href="#" class="brand-logo">Materialize</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Job01</a></li>
+                    <li><a href="index.php">Job01</a></li>
                 </ul>
             </div>
-
-            <script type="text/javascript" src="js/materialize.min.js"></script>
 
         </nav>
     </header>
@@ -99,10 +95,9 @@
                 <span>Lecture</span>
             </label>
 
-            
-  <button class="btn waves-effect waves-light" type="submit" name="action">Valider
-  </button>
-        
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Valider</button>
+
             </form>
             </div>
 
@@ -111,18 +106,16 @@
 
     <footer>
 
-        <footer>
-            
-    <nav class="navbar-fixed">
-      <div class="nav-wrapper">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Accueil</a></li>
-          <li><a href="sass.html">Inscription</a></li>
-          <li><a href="badges.html">Connexion</a></li>
-          <li><a href="sass.html">Rechercher</a></li>
-        </ul>
-      </div>
-    </nav>
+            <nav class="navbar-fixed">
+                <div class="nav-wrapper">
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="index.php">Inscription</a></li>
+                        <li><a href="index.php">Connexion</a></li>
+                        <li><a href="index.php">Rechercher</a></li>
+                    </ul>
+                </div>
+            </nav>
         </footer>
     </footer>
 </body>
