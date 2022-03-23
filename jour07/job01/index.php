@@ -118,7 +118,7 @@
         <!-- FORMULAIRE -->
         <div class="d-flex justify-content-around mt-4 pb-5" id="page-form">
             <div class="col-4">
-                <p class="h5">Recevz votre copie gratuite d'internet 2!</p>
+                <p class="h5">Recevez votre copie gratuite d'internet 2!</p>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">@</span>
                     <input type="text" class="form-control" placeholder="Login" aria-label="Username" aria-describedby="basic-addon1">
